@@ -1,0 +1,45 @@
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 76px;
+    background-color: #dbd0be;
+}
+
+.header__navbar {
+    display: flex;
+}
+
+.header__navbar-list {
+    display: flex;
+    list-style: none;
+    /* padding-left: 0; */
+    /* justify-content: space-around; */
+    font-size: 1.4rem;
+    text-transform: uppercase;
+
+}
+
+.header__logo-link {
+
+}
+
+.header__logo {
+    padding-left: 180px;
+}
+
+.header__logo-item {
+    width: 190px;
+    height: 76px;
+}
+
+
+.header__navbar-item {
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+.header__search {
+
+}
