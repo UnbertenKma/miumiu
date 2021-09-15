@@ -1,0 +1,85 @@
+:root {
+    --white-color : #fff;
+    --black-color : #000;
+    --text-color : #333;
+
+}
+
+* {
+    box-sizing: inherit;
+/* kế thừa thẻ chứa nó */
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    /* đổi cho 1rem = 10px */
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__row-profile {
+    padding-left: 80px;
+    padding-right: 80px;
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.grid__column-2-4 {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 25%;
+}
+
+.grid__row-50 {
+    width: 50%;
+    padding-left: 0px;
+    /* padding-right: 20px; */
+    /* display: flex; */
+    /* text-align: center; */
+}
+
+.grid__row_footer {
+    width: 33.33%;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+@keyframes fadeIn {
+    from {left: 0px; color: #3abdc1;}
+    to {left: 2px;}
+}
+
+@keyframes mountRoll {
+    from {top: 0px;}
+    to {bottom: -7px;}
+}
+
+@keyframes slogan {
+    from {left: 0px;}
+    to {bottom: -7px;}
+}
+
+@keyframes ani {
+    from {
+        left: 30%;;
+    }
+    to {
+        right: 10px;
+    }
+}
